@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package im.chat;
+
+option go_package="im/chat;chat";
+
+message ChatTypeReq{
+    required int32 type = 1;
+}
+
+message ChatTypeResp{
+    optional int32  cmd = 1;
+}
+
+service ChatService {
+  rpc SayHello(ChatTypeReq) returns (ChatTypeResp){}
+}

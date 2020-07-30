@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package im.message;
+
+option go_package="im/message;message";
+
+import "im/chat/ch.proto";
+
+message RequestMes{
+    optional int32 a = 1;
+    optional im.chat.ChatTypeReq type = 2;
+}
