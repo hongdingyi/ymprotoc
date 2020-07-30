@@ -4,7 +4,7 @@
 
 # 安装
 ```shell script
-go get -u github.com/hongdingyi/ymprotoc
+go get -u hongdingyi/ymprotoc
 ```
 
 # 命令
