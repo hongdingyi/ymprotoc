@@ -4,7 +4,12 @@
 
 # 安装
 ```shell script
-go get -u hongdingyi/ymprotoc
+1、go get -u github.com/hongdingyi/ymprotoc
+
+//不行采用以下方案
+2、git clone https://github.com/hongdingyi/ymprotoc.git
+go install
+
 ```
 
 # 命令
