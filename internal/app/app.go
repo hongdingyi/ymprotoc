@@ -71,7 +71,6 @@ func (a *App) Gen() {
 	if err != nil {
 		log.Fatalf("compile error %v", err)
 	}
-	log.Println("build  proto success")
 	return
 }
 
